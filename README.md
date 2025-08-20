@@ -6,6 +6,9 @@ An advanced multi-agent AI diagnostic system that intelligently combines SCADA s
 
 ### 🐳 Docker Deployment
 This project uses Docker to create a self-contained, multi-service application. This is the recommended method for easy setup and consistency across different environments.
+<img width="1440" height="900" alt="Screenshot 2025-08-20 at 9 09 48 PM" src="https://github.com/user-attachments/assets/94e60e07-5af4-408f-a6fc-45ab22e17501" />
+<img width="1440" height="900" alt="Screenshot 2025-08-20 at 9 09 33 PM" src="https://github.com/user-attachments/assets/01432d84-5427-460d-aec6-034519c959ca" />
+
 
 Prerequisites: You need Docker Desktop installed on your machine.
 
@@ -13,6 +16,8 @@ Prerequisites: You need Docker Desktop installed on your machine.
 
 git clone <your-repo-url>
 cd SentientAI-main
+Create a .env file in your root project with a Grok API Key.
+
 
 2. Start the application:
 This command will build the Docker images for both the api and web services and then start the containers in the background.
